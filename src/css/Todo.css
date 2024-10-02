@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+#root{
+    width: 100%;
+    height: 100%;
+    background-color: #8758ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todocontainer{
+    /* border: 2px solid red; */
+    width: 27%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A1A40;
+    color: white;
+    border-radius: 5px;
+}
+.innercontainer{
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.todocard{
+    /* border: 2px solid orange; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.todocard input{
+    width: 65%;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+}
+.todocard button{
+    width: 25%;
+    height: 100%;
+    border: none;
+    background-color: rgb(154, 82, 242);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.todocardedit{
+    /* border: 2px solid orange; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+.todocardedit input{
+    width: 70%;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+}
+.todocardedit button{
+    width: 25%;
+    height: 100%;
+    border: none;
+    background-color: rgb(154, 82, 242);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.itemscontainer{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.itemscontainer h4{
+    font-size: 20px;
+}
+.card{
+    /* border: 2px solid orange; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    background-color: rgb(154, 82, 242);
+}
+.cardcontainer{
+    /* border: 2px solid yellow; */
+    width: 95%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardcontainer h4{
+    width: 75%;
+    overflow: hidden;
+}
+.cardcontainer button{
+    background-color: transparent;
+    border: none;
+}
+.cardcontainer button svg{
+    color: white;
+    width: 25px;
+    height: 22px;
+    cursor: pointer;
+}
